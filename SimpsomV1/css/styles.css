@@ -1,0 +1,78 @@
+/*  general */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: yellow;
+}
+
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+img{
+    vertical-align: bottom;
+}
+
+.blue{
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.darckBlue{
+    background-color: rgb(10, 10, 110);
+    color: white;
+    text-align: center;
+}
+
+/*Header ****************************/
+
+.famille{
+    width: 100%;
+}
+
+
+/*main ***************/
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+nav{
+    width: 15%;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/**************article *********/
+
+article{
+    width: 60%;
+}
+
+/********aside **********/
+
+aside{
+    width: 13%;
+}
+
+.matt{
+    width: 100%;
+}
+
